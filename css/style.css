@@ -41,7 +41,7 @@ img{
 .stella{
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: 1.5rem auto;
     gap: 1rem;
 }
 .stella-b{
@@ -49,6 +49,7 @@ img{
     align-items: center;
     margin: 0 auto;
     gap: 1rem;
+    margin: 1.5rem auto;
 }
 .stella::before,
 .stella::after{
@@ -71,4 +72,28 @@ img{
 }
 .immagini img{
     border-radius: 1em;
+}
+.sez1 a{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+.form-control{
+    border: 0px solid transparent!important;
+    border-bottom: 2px solid #bdbdbd !important;
+    border-radius: 0!important;
+}
+.btn-form{
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    color: white;
+    border:1px solid #1ABC9C;
+    display: block;
+    width: 50%;
+}
+.btn{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1abc9c;
 }
