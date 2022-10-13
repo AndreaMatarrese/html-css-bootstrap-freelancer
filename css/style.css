@@ -1,0 +1,74 @@
+html{
+font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 100%;
+}
+.bg-nav{
+    background-color: #2C3E50;
+}
+.navbar{
+    color: white;
+}
+.bs-navbar-color{
+    color: white;
+}
+
+.riga{
+    height: 10px;
+    width: calc(100% / 3);
+    background-color: white;
+    border-radius: 15em;
+    
+}
+.riga-b{
+    height: 10px;
+    width: calc(100% / 3);
+    background-color: black;
+    border-radius: 15em;
+    display: inline-block;
+    
+}
+
+
+.sez1{
+    background-color: #1ABC9C;
+    color: white;
+}
+.professione h4{
+    font-size: 3vw;
+}
+.stella{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.stella-b{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.stella::before,
+.stella::after{
+    content: '';
+    height: 3px;
+    background-color: white;
+    
+    flex-grow: 1;
+}
+.stella-b::before,
+.stella-b::after{
+    content: '';
+    height: 3px;
+    background-color: black;
+    
+    flex-grow: 1;
+}
+.card{
+    gap: 2rem;
+}
+.immagini img{
+    border-radius: 1em;
+}
