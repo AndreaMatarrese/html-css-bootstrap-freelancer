@@ -120,3 +120,19 @@ img{
 .foot-2 div{
     font-size: .75rem;
 }
+.immagine{
+    position: relative;
+    
+}
+/* .immagine:hover{
+    content: '\2b';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    inset:0;
+    background-color: #1ABC9C;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
